@@ -2,7 +2,23 @@
 
 Word Frequency Counter is a simple yet powerful application designed to analyze text documents or user inputs by counting the frequency of each unique word. The tool displays words and their corresponding frequencies in descending order, making it easy to identify the most common terms in any given text.
 
-## Features
+---
+
+## 📑 Table of Contents
+
+- [✨ Features](#features)
+- [🛠️ How It Works](#how-it-works)
+- [📊 Graphical Representation & Visualization](#graphical-representation--visualization)
+- [📝 Example](#example)
+- [🚀 Usage](#usage)
+- [⚙️ Implementation Details](#implementation-details)
+- [🌐 Supported Languages](#supported-languages)
+- [🤝 Contributing](#contributing)
+- [📄 License](#license)
+
+---
+
+## ✨ Features
 
 - **Input Support:** Read text from documents or direct user input.
 - **Efficient Counting:** Uses a dictionary data structure for fast lookups and updates.
@@ -12,7 +28,9 @@ Word Frequency Counter is a simple yet powerful application designed to analyze 
 - **Graphical Visualization:** View word frequency data as bar charts or pie charts for easy analysis.
 - **Interactive Visuals:** Explore word frequency visually with interactive plots (e.g., zoom, hover, filter).
 
-## How It Works
+---
+
+## 🛠️ How It Works
 
 1. **Text Reading:** The application reads the entire text from a file or input.
 2. **Word Extraction:** The text is split into words, removing punctuation and normalizing case as needed.
@@ -20,7 +38,9 @@ Word Frequency Counter is a simple yet powerful application designed to analyze 
 4. **Sorting:** The dictionary is sorted in descending order based on word frequency.
 5. **Display:** The sorted list and graphical visualizations of word frequencies are displayed to the user.
 
-## Graphical Representation & Visualization
+---
+
+## 📊 Graphical Representation & Visualization
 
 Word Frequency Counter supports graphical visualization to help users understand word distributions at a glance:
 
@@ -38,7 +58,9 @@ Word Frequency Counter supports graphical visualization to help users understand
 
 *Sample images above are for illustration. Actual charts generated will reflect your input text.*
 
-## Example
+---
+
+## 📝 Example
 
 Suppose you input the following text:
 ```
@@ -59,7 +81,9 @@ coding: 1
 A bar chart will show "hello" and "world" as the tallest bars, with other words as shorter bars.  
 A pie chart will display each word as a slice, sized according to frequency.
 
-## Usage
+---
+
+## 🚀 Usage
 
 1. Clone the repository:
    ```sh
@@ -71,7 +95,9 @@ A pie chart will display each word as a slice, sized according to frequency.
 
 3. (Optional) To enable graphical visualization, ensure you have the required plotting libraries installed (e.g., `matplotlib`, `plotly`, or `seaborn` for Python).
 
-## Implementation Details
+---
+
+## ⚙️ Implementation Details
 
 This project leverages the dictionary (hash map) data structure to store word-frequency pairs efficiently:
 - **Dictionary Keys:** Unique words from the text.
@@ -79,15 +105,21 @@ This project leverages the dictionary (hash map) data structure to store word-fr
 
 This approach ensures fast insertion and retrieval, even for large texts.
 
-## Supported Languages
+---
+
+## 🌐 Supported Languages
 
 > The implementation may vary depending on your preferred programming language. Please see the source files in the repository for language-specific instructions.
 
-## Contributing
+---
+
+## 🤝 Contributing
 
 Contributions and suggestions are welcome! Feel free to open an issue or submit a pull request.
 
-## License
+---
+
+## 📄 License
 
 MIT License
 
